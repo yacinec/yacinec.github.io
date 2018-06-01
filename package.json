@@ -1,0 +1,17 @@
+{
+  "name": "perso",
+  "version": "1.0.0",
+  "description": "Stellar by HTML5 UP\r html5up.net | @ajlkn\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-install": "^1.1.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
