@@ -1,122 +1,46 @@
 <!DOCTYPE HTML>
 <!--
-	Read Only by HTML5 UP
+	Aerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Yacine C - Portfolio</title>
+		<title>Aerial by HTML5 UP</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Yacine C.</a></h1>
-					<p>Hi, I am Yacine, a french computer science student.</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Things I Can Do</a></li>
-						<li><a href="#three">A Few Accomplishments</a></li>
-						<li><a href="#four">Contact</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="https://github.com/yacinec/" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="mailto:yacinec.pro@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- One -->
-							<section id="one">
-								<div class="container">
-									<header class="major">
-										<h2>Who I am</h2>
-										<p>I will introduce myself in few sentences.</p>
-									</header>
-									<p>I began to learn programming when I was young, and I immediatly get interesting about create thing by myself with language of programamtion like the C, Java or the C++. Then I designed web site and web apps for myself. I indeed choose a computer science school after had my high school diploma in science, and it allowed me to confirm my interest for the computer science and improving my skills.</p>
-								</div>
-							</section>
-
-						<!-- Two -->
-							<section id="two">
-								<div class="container">
-									<h3>Things I Can Do</h3>
-									<p>A lot of technologies passion me, that why I developped different skills.</p>
-									<ul class="feature-icons">
-										<li class="fa-code">Developping Apps and Software</li>
-										<li class="fa-cubes">Designing Web apps and web site</li>
-										<li class="fa-book">Setup Network</li>
-										<li class="fa-coffee">Manage Database</li>
-										<li class="fa-bolt">Desktop tools</li>
-										<li class="fa-bolt">Others ( Blender...)</li>
-									</ul>
-								</div>
-							</section>
-
-						<!-- Three -->
-							<section id="three">
-								<div class="container">
-									<h3>A Few Accomplishments</h3>
-									<p>Beyond, you can see a few web site that I developped for differents companies.</p>
-									<div class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Ghost Frog</h4>
-												<p>I developped an other version of the web site Ghost Frog, a society of video games.</p>
-											</div>
-										</article>
-									</div>
-								</div>
-							</section>
-
-						<!-- Four -->
-							<section id="four">
-								<div class="container">
-									<h3>Contact Me</h3>
-									<p>If you want to contact me, you can send me a message with my mail address : <a href="maitlo:yacinec.pro@gmail.com">yacinec.pro@gmail.com</a></p>
-								</div>
-							</section>
-
-					</div>
+				<!-- Header -->
+					<header id="header">
+						<h1>Yacine Chalabi</h1>
+						<p>Web developer &nbsp;&bull;&nbsp; FullStack &nbsp;&bull;&nbsp; Javascript</p>
+						<nav>
+							<ul>
+								<li><a href="https://github.com/yacinec/" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="yacinec.pro@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
 
 				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy; Yacine C. Portfolio. All rights reserved.</li>
-							</ul>
-						</div>
-					</section>
+					<footer id="footer">
+						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer>
 
 			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
 	</body>
 </html>
